@@ -1,0 +1,62 @@
+.Bar {
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 90, 255);
+    height: calc(2.7rem + 0.5vw);
+    width: 100%;
+    display: flex;
+    justify-content: left;
+}
+
+.Bar_Navlinks {
+    width: fit-content;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: calc(1.35rem + 0.25vw);
+    display: flex;
+    justify-content: space-around;
+}
+
+.Bar_links li:hover {
+    background: rgb(255, 140, 255);
+}
+
+.Bar_links li {
+    display: block;
+    padding: calc(0.20rem + 0.029vw) calc(0.5rem + 0.5vw) calc(0.08rem + 0.015vw) calc(0.5rem + 0.5vw);
+}
+
+.Bar_label {
+    color: rgb(255, 255, 255);
+}
+
+.Bar_link_label {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.Bar_links li ul {
+    padding: 1rem 0rem;
+    font-size: calc(1.5rem - 0.45vw);
+    font-weight: bolder;
+    position: absolute;
+    width: 100%;
+    left: 0%;
+    min-height: max-content;
+    display: none;
+    background: rgb(255, 140, 255);
+}
+
+.Bar_links li ul li {
+    color: rgb(255, 255, 255);
+    display: block;
+    padding: calc(0.6rem + 0.1vw) calc(0.25rem + 0.1vw) calc(0.2rem + 0.1vw) calc(0.25rem + 0.5vw);
+}
+
+.Bar_links li:hover ul {
+    display: block;
+    margin: 0;
+}
+
+.Bar_links li:hover ul li:hover {
+    background: rgb(255, 160, 255);
+}

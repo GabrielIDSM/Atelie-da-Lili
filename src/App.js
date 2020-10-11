@@ -1,6 +1,7 @@
 import React from 'react';
 import { Home } from './Home';
 import { HashRouter as Router, Switch, Route } from 'react-router-dom';
+import './css/bar.css';
 
 function App() {
   return (
