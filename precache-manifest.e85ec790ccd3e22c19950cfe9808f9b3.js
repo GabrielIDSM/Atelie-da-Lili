@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7afc36ce0268d8ab86e1ea9b934d863e",
+    "revision": "4db8c6fae3ea3bf11daa7a1b0e088d02",
     "url": "/Atelie-da-Lili/index.html"
   },
   {

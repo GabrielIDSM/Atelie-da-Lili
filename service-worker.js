@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Atelie-da-Lili/precache-manifest.cc33c6bca17919fb8a0f9c5b8862d915.js"
+  "/Atelie-da-Lili/precache-manifest.e85ec790ccd3e22c19950cfe9808f9b3.js"
 );
 
 self.addEventListener('message', (event) => {
