@@ -2,7 +2,7 @@
 
 ## Deploy
 
-https://gabrielidsm.github.io/Atelie-da-Lili
+https://liliinacio.com/
 
 ## Team
 
