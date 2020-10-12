@@ -2,7 +2,7 @@
 
 ## Deploy
 
-Coming soon
+https://gabrielidsm.github.io/Atelie-da-Lili
 
 ## Team
 
