@@ -2,7 +2,7 @@
 
 ## Deploy
 
-https://liliinacio.com/
+www.liliinacio.com
 
 ## Team
 
