@@ -3,8 +3,6 @@
     background-color: rgb(255, 90, 255);
     height: calc(2.7rem + 0.5vw);
     width: 100%;
-    display: flex;
-    justify-content: left;
 }
 
 .Bar_Navlinks {
@@ -13,6 +11,7 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: calc(1.35rem + 0.25vw);
     display: flex;
+    padding: 0%;
 }
 
 .Bar_links li:hover {

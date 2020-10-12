@@ -1,7 +1,14 @@
+.Home_Image {
+    display: block;
+    width: calc(18.5rem + 1vw);
+    height: auto;
+    margin: 1rem auto;
+}
+
 .Home_Component {
-    margin: 5vh 5vh;
+    margin: 0vh 5vh;
     background-color: rgb(255, 90, 255);
-    opacity: 0.875;
+    opacity: 0.915;
 }
 
 .Home_Component h1 {

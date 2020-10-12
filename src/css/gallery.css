@@ -1,0 +1,29 @@
+.Gallery_Component {
+    margin: 5vh 5vh;
+    background-color: rgb(255, 90, 255);
+    opacity: 0.915;
+}
+
+.Gallery_Component h1 {
+    display: block;
+    text-align: left;
+    font-size: calc(1.4rem + 1vw);
+    padding: 0.7rem 1.5rem;
+    color: white;
+}
+
+.Gallery_Component h2 {
+    display: block;
+    text-align: justify;
+    font-size: calc(0.7rem + 1vw);
+    padding: 0rem 1.5rem 0rem 1.5rem;
+    color: white;
+}
+
+.Gallery_Component label {
+    text-align: right;
+    text-decoration: none;
+    font-size: calc(0.85rem + 1vw);
+    padding: 0rem 1.5rem 2rem 1.5rem;
+    color: white;
+}

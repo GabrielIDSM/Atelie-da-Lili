@@ -9,10 +9,10 @@ class Bar extends Component {
                     <Link className="Bar_links" to="/">
                         <li><label className="Bar_label">Início</label></li>
                     </Link>
-                    <Link className="Bar_links" to="/">
-                        <li><label className="Bar_label">Galeria</label></li>
+                    <Link className="Bar_links" to="/produtos">
+                        <li><label className="Bar_label">Produtos</label></li>
                     </Link>
-                    <Link className="Bar_links" to="/">
+                    <Link className="Bar_links" to="/sobre">
                         <li><label className="Bar_label">Sobre</label></li>
                     </Link>
                 </ul>
