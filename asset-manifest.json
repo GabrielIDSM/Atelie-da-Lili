@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.59dc5e9f.chunk.css",
-    "main.js": "/static/js/main.11797c9f.chunk.js",
-    "main.js.map": "/static/js/main.11797c9f.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.0fef2a10.js",
-    "runtime-main.js.map": "/static/js/runtime-main.0fef2a10.js.map",
-    "static/js/2.e08e0fa1.chunk.js": "/static/js/2.e08e0fa1.chunk.js",
-    "static/js/2.e08e0fa1.chunk.js.map": "/static/js/2.e08e0fa1.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.58f107a15ef5007138e79e06d1d473ad.js": "/precache-manifest.58f107a15ef5007138e79e06d1d473ad.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.59dc5e9f.chunk.css.map": "/static/css/main.59dc5e9f.chunk.css.map",
-    "static/js/2.e08e0fa1.chunk.js.LICENSE.txt": "/static/js/2.e08e0fa1.chunk.js.LICENSE.txt",
-    "static/media/ProjectSClouds.png": "/static/media/ProjectSClouds.3ea7ec07.png",
-    "static/media/app.css": "/static/media/clouds.c6e536e3.png"
+    "main.css": "/Atelie-da-Lili/static/css/main.9cecd876.chunk.css",
+    "main.js": "/Atelie-da-Lili/static/js/main.c19eb24a.chunk.js",
+    "main.js.map": "/Atelie-da-Lili/static/js/main.c19eb24a.chunk.js.map",
+    "runtime-main.js": "/Atelie-da-Lili/static/js/runtime-main.0db69346.js",
+    "runtime-main.js.map": "/Atelie-da-Lili/static/js/runtime-main.0db69346.js.map",
+    "static/js/2.e08e0fa1.chunk.js": "/Atelie-da-Lili/static/js/2.e08e0fa1.chunk.js",
+    "static/js/2.e08e0fa1.chunk.js.map": "/Atelie-da-Lili/static/js/2.e08e0fa1.chunk.js.map",
+    "index.html": "/Atelie-da-Lili/index.html",
+    "precache-manifest.e85ec790ccd3e22c19950cfe9808f9b3.js": "/Atelie-da-Lili/precache-manifest.e85ec790ccd3e22c19950cfe9808f9b3.js",
+    "service-worker.js": "/Atelie-da-Lili/service-worker.js",
+    "static/css/main.9cecd876.chunk.css.map": "/Atelie-da-Lili/static/css/main.9cecd876.chunk.css.map",
+    "static/js/2.e08e0fa1.chunk.js.LICENSE.txt": "/Atelie-da-Lili/static/js/2.e08e0fa1.chunk.js.LICENSE.txt",
+    "static/media/ProjectSClouds.png": "/Atelie-da-Lili/static/media/ProjectSClouds.3ea7ec07.png",
+    "static/media/app.css": "/Atelie-da-Lili/static/media/clouds.c6e536e3.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.0fef2a10.js",
+    "static/js/runtime-main.0db69346.js",
     "static/js/2.e08e0fa1.chunk.js",
-    "static/css/main.59dc5e9f.chunk.css",
-    "static/js/main.11797c9f.chunk.js"
+    "static/css/main.9cecd876.chunk.css",
+    "static/js/main.c19eb24a.chunk.js"
   ]
 }
