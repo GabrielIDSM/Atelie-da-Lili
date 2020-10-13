@@ -1,0 +1,23 @@
+.Gallery_Page {
+    background-color: rgb(255, 90, 255);
+}
+
+.Gallery_Two_Images {
+    width: 100%;
+    display: flex;
+}
+
+.Gallery_Div_Image {
+    width: 90%;
+    margin: 0 0.5% 1% 0.5%;
+    padding: 0.5%;
+    background-color: white;
+}
+
+.Gallery_Image {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}

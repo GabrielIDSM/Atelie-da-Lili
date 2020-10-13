@@ -1,3 +1,10 @@
+.Gif_one {
+    display: block;
+    width: 86%;
+    height: auto;
+    margin: 1rem auto;
+}
+
 .About_Full_Component {
     margin: 5vh 5vh;
     padding: 0rem 0rem 1rem 0rem;

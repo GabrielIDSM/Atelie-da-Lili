@@ -7,21 +7,26 @@ class Home extends Component {
         return (
             <div className="Page">
                 <Bar></Bar>
-                <img className="Home_Image" src={ require('./images/ProjectSClouds.png') } alt="logo"></img>
+                <img className="Home_Image" src={require('./images/ProjectSClouds.png')} alt="logo"></img>
                 <div className="Home_Component">
-                    <h1>Lorem ipsum</h1>
-                    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus commodo lorem ac cursus sollicitudin. Aliquam posuere risus id metus tempor lacinia. Praesent finibus lacinia dolor, id cursus odio ornare quis. Sed nec quam non libero vulputate cursus. Fusce porta vehicula nulla. Quisque sodales massa eget condimentum venenatis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent varius, odio quis commodo iaculis, sapien neque tincidunt sapien, vitae cursus velit dolor eu diam. Phasellus vehicula nulla lacus, nec pulvinar tellus euismod non. Proin tempus massa vitae vehicula vestibulum. </h2>
+                    <h1>Olá, Este é o Ateliê Lili Inácio!</h1>
+                    <h2>Bem-vindo a este espaço que é nosso e foi projetado com muito carinho pra você! Aqui você poderá escolher e sonhar com o seu mascote. E de sonhos eu entendo, pois o ateliê nasceu de um sonho!</h2>
                 </div>
                 <div className="About_Component">
-                    <h1>Lorem ipsum</h1>
-                    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus commodo lorem ac cursus sollicitudin. Aliquam posuere risus id metus tempor lacinia. Praesent finibus lacinia dolor, id cursus odio ornare quis. Sed nec quam non libero vulputate cursus. Fusce porta vehicula nulla. Quisque sodales massa eget condimentum venenatis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent varius, odio quis commodo iaculis, sapien neque tincidunt sapien, vitae cursus velit dolor eu diam. Phasellus vehicula nulla lacus, nec pulvinar tellus euismod non. Proin tempus massa vitae vehicula vestibulum. </h2>
+                    <h1>Nossa História</h1>
+                    <h2>Era agosto de 2011 e tínhamos idealizado uma chamada evangelística pelas ruas do Bairro e queríamos realizar com bonecões. Fui ver o preço... E não desmerecendo o trabalho de ninguém... Era inviável para mim. Quase deixei o sonho pra lá. Um dia [...]</h2>
                     <Link to="/sobre">
-                        <label>Lorem ipsum →</label>
+                        <label>Continuar lendo →</label>
                     </Link>
                 </div>
                 <div className="Contact_Component">
-                    <h1>Lorem ipsum</h1>
-                    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus commodo lorem ac cursus sollicitudin. Aliquam posuere risus id metus tempor lacinia. Praesent finibus lacinia dolor, id cursus odio ornare quis. Sed nec quam non libero vulputate cursus. Fusce porta vehicula nulla. Quisque sodales massa eget condimentum venenatis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent varius, odio quis commodo iaculis, sapien neque tincidunt sapien, vitae cursus velit dolor eu diam. Phasellus vehicula nulla lacus, nec pulvinar tellus euismod non. Proin tempus massa vitae vehicula vestibulum. </h2>
+                    <h1>Contato</h1>
+                    <h2>O Ateliê preza pelo contato personalizado com os clientes. Para entrar em contato com o Ateliê, basta usar um dos seguintes meios:</h2>
+                    <ul>
+                        <li>E-mail: <b>atelieliliinacio@gmail.com</b></li>
+                        <li>Whatsapp: <b>(21) 9 7291-9788</b></li>
+                        <li>Facebook: <b>facebook.com/liliInacio82</b></li>
+                    </ul>
                 </div>
             </div>
         );

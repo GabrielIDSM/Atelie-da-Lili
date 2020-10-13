@@ -75,6 +75,20 @@
     display: block;
     text-align: justify;
     font-size: calc(0.7rem + 1vw);
+    padding: 0rem 1.5rem 0.5rem 1.5rem;
+    color: white;
+}
+
+.Contact_Component ul {
+    display: block;
+    text-align: justify;
+    font-size: calc(0.7rem + 1vw);
     padding: 0rem 1.5rem 2rem 1.5rem;
+}
+
+.Contact_Component li {
+    display: block;
+    text-align: justify;
+    font-size: calc(0.8rem + 1vw);
     color: white;
 }
