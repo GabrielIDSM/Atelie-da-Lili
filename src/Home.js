@@ -14,7 +14,7 @@ class Home extends Component {
                 </div>
                 <div className="About_Component">
                     <h1>Nossa História</h1>
-                    <h2>Era agosto de 2011 e tínhamos idealizado uma chamada evangelística pelas ruas do Bairro e queríamos realizar com bonecões. Fui ver o preço... E não desmerecendo o trabalho de ninguém... Era inviável para mim. Quase deixei o sonho pra lá. Um dia [...]</h2>
+                    <h2>Era agosto de 2011 e tínhamos idealizado uma chamada evangelística pelas ruas do nosso Bairro, e ter bonecões já era um desejo. Foi difícil encontrar quem fizesse, na época não era tão comum; e não  desmerecendo o trabalho de ninguém, quando encontramos, o preço era inacessível pra nós. Quase deixamos nosso sonho pra lá. Um dia [...]</h2>
                     <Link to="/sobre">
                         <label>Continuar lendo →</label>
                     </Link>
