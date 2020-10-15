@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import axios from 'axios';
 
 class Frete extends Component {
     constructor(props) {
@@ -60,8 +61,6 @@ class Frete extends Component {
     }
 
     submit = (e) => {
-        const F = require('node-correios')
-        let f = new F()
         var totalPrice
         var auxCtg1
         var auxCtg2
@@ -83,38 +82,40 @@ class Frete extends Component {
             totalPrice += parseFloat(obj.Ctg3) * 280.0
             totalPrice += parseFloat(obj.Ctg4) * 320.0
             if (totalPrice >= 500) totalPrice = totalPrice * 0.92
-            obj.Cep = obj.Cep.replace("-","")
+            obj.Cep = obj.Cep.replace("-", "")
             return { obj }
         })
         var totalFrete = 0
         let argsCtg1and2 = {
-            nCdServico: '04510',
-            sCepOrigem: '25943509',
-            sCepDestino: this.state.Cep.toString(),
-            nVlPeso: '2',
-            nCdFormato: 1,
-            nVlComprimento: 60.0,
-            nVlAltura: 25.0,
-            nVlLargura: 25.0,
-            nVlDiametro: 25.0
+            servico: '41106',
+            cepOrigem: '25943509',
+            cepDestino: this.state.Cep.toString(),
+            formato: '1',
+            comprimento: 60.0,
+            altura: 25.0,
+            largura: 25.0,
+            diametro: 25.0,
+            peso: 2.0
         }
         let argsCtg3and4 = {
-            nCdServico: '04510',
-            sCepOrigem: '25943509',
-            sCepDestino: this.state.Cep.toString(),
-            nVlPeso: '2',
-            nCdFormato: 1,
-            nVlComprimento: 60.0,
-            nVlAltura: 30.0,
-            nVlLargura: 25.0,
-            nVlDiametro: 25.0
+            servico: '41106',
+            cepOrigem: '25943509',
+            cepDestino: this.state.Cep.toString(),
+            formato: '1',
+            comprimento: 60.0,
+            altura: 30.0,
+            largura: 25.0,
+            diametro: 25.0,
+            peso: 2.0
         }
-        f.calcPreco(argsCtg1and2)
-            .then(result => {
-                totalFrete += parseFloat(result[0].Valor.replace(",",".")) * (auxCtg1 + auxCtg2)
-                f.calcPreco(argsCtg3and4)
-                    .then(result => {
-                        totalFrete += parseFloat(result[0].Valor.replace(",",".")) * (auxCtg3 + auxCtg4)
+        axios.post('https://gabrielidsm-fretecorreios.herokuapp.com/correios/frete', argsCtg1and2)
+            .then(response => {
+                console.log(response)
+                totalFrete += parseFloat(response.data.valor.replace(",", ".")) * (auxCtg1 + auxCtg2)
+                axios.post('https://gabrielidsm-fretecorreios.herokuapp.com/correios/frete', argsCtg3and4)
+                    .then(response => {
+                        console.log(response)
+                        totalFrete += parseFloat(response.data.valor.replace(",", ".")) * (auxCtg3 + auxCtg4)
                         totalPrice += totalFrete
                         this.setState(prevState => {
                             var obj = prevState
@@ -124,20 +125,22 @@ class Frete extends Component {
                         })
                     })
                     .catch(error => {
+                        console.log(error)
                         this.setState(prevState => {
                             var obj = prevState
                             obj.Result = 'Erro!'
                             return { obj }
                         })
-                    });
+                    })
             })
             .catch(error => {
+                console.log(error)
                 this.setState(prevState => {
                     var obj = prevState
                     obj.Result = 'Erro!'
                     return { obj }
                 })
-            });
+            })
     }
 
     render() {

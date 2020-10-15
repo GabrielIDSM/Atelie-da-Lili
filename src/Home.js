@@ -20,6 +20,7 @@ class Home extends Component {
                         <label>Continuar lendo →</label>
                     </Link>
                 </div>
+                <Frete></Frete>
                 <div className="Contact_Component">
                     <h1>Contato</h1>
                     <h2>O Ateliê preza pelo contato personalizado com os clientes. Para entrar em contato com o Ateliê, basta usar um dos seguintes meios:</h2>
