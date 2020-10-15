@@ -65,7 +65,7 @@
 
 .Contact_Component h1 {
     display: block;
-    text-align: right;
+    text-align: left;
     font-size: calc(1.4rem + 1vw);
     padding: 0.7rem 1.5rem;
     color: white;

@@ -1,0 +1,106 @@
+.Frete {
+    margin: 5vh 5vh;
+    background-color: rgb(255, 90, 90);
+    opacity: 0.915;
+}
+
+.Frete h1 {
+    display: block;
+    text-align: left;
+    font-size: calc(1.4rem + 1vw);
+    padding: 0.7rem 1.5rem;
+    color: white;
+}
+
+.Frete h2 {
+    display: block;
+    text-align: justify;
+    font-size: calc(0.7rem + 1vw);
+    padding: 0rem 1.5rem 0rem 1.5rem;
+    color: white;
+}
+
+.Frete_Div {
+    width: 100%;
+    padding: 0.5rem 1.5rem;
+}
+
+.Frete_Label {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    font-size: calc(0.8rem + 1vw);
+    color: white;
+    padding: 0 0.5rem;
+}
+
+.Div_Select {
+    width: 100%;
+    padding: 0.5rem 1.5rem;
+}
+
+.Frete_Select {
+    width: 40%;
+    text-align: center;
+    font-size: calc(0.8rem + 1vw);
+    color: rgb(65, 20, 20);
+    margin: 0 5%;
+}
+
+.CEP_Div {
+    width: 50%;
+    padding: 0.5rem 1.5rem;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+}
+
+.CEP_Label {
+    display: inline-block;
+    font-size: calc(0.8rem + 1vw);
+    color: white;
+    padding: 0 0.5rem;
+}
+
+.CEP_Div input {
+    width: 50%;
+    font-size: calc(0.8rem + 1vw);
+    color: rgb(65, 20, 20);
+    min-width: 5.2rem;
+}
+
+.Button_Div {
+    width: 100%;
+    padding: 0.5rem 1.5rem;
+    margin: 0 auto;
+}
+
+.Button_Div button {
+    width: fit-content;
+    min-width: 8.5rem;
+    height: fit-content;
+    text-align: center;
+    background-color: rgb(65, 20, 20);
+    font-size: calc(0.8rem + 1vw);
+    font-weight: bold;
+    padding: 0.5rem;
+    color: white;
+}
+
+.Button_Div button:hover {
+    background-color: rgb(105, 20, 20);
+}
+
+.Result_Div {
+    width: 100%;
+    padding: 0.5rem 1.5rem;
+}
+
+.Result_Label {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    font-size: calc(1.5rem + 1vw);
+    font-weight: bold;
+    color: white;
+}

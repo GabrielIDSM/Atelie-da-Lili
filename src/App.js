@@ -12,6 +12,7 @@ import './css/home.css';
 import './css/about.css';
 import './css/gallery.css';
 import './css/category.css';
+import './css/frete.css';
 
 function App() {
   return (
