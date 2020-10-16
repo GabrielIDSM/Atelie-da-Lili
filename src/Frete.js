@@ -150,7 +150,8 @@ class Frete extends Component {
                 <h2>Agora você mesmo pode calcular o valor de sua compra e frete!</h2>
                 <h2>Para materiais de pelúcia ou pedidos especiais, entre em contato com o Ateliê. </h2>
                 <h2>Para efetivar a compra, entre em contato com o Ateliê. </h2>
-                <h2>* Valores aproximados</h2>
+                <h2><b>*</b> Valores aproximados</h2>
+                <h2><b>**</b> 8% de desconto para compras acima de R$500,00</h2>
                 <div className="Frete_Div">
                     <div className="Div_Labels">
                         <label className="Frete_Label">Kit(s) Tipo Cabeção</label>
@@ -158,7 +159,7 @@ class Frete extends Component {
                     </div>
                     <div className="Div_Select">
                         <select className="Frete_Select" id="Ctg1" name="Ctg1" type="number" value={this.state.Ctg1} onChange={this.categoryOne}>
-                            <option value="0">Nenhuma unidade</option>
+                            <option value="0">0 un.</option>
                             <option value="1">1 un.</option>
                             <option value="2">2 un.</option>
                             <option value="3">3 un.</option>
@@ -171,7 +172,7 @@ class Frete extends Component {
                             <option value="10">10 un.</option>
                         </select>
                         <select className="Frete_Select" id="Ctg2" name="Ctg2" type="number" value={this.state.Ctg2} onChange={this.categoryTwo}>
-                            <option value="0">Nenhuma unidade</option>
+                            <option value="0">0 un.</option>
                             <option value="1">1 un.</option>
                             <option value="2">2 un.</option>
                             <option value="3">3 un.</option>
@@ -192,7 +193,7 @@ class Frete extends Component {
                     </div>
                     <div className="Div_Select">
                         <select className="Frete_Select" id="Ctg3" name="Ctg3" type="number" value={this.state.Ctg3} onChange={this.categoryThree}>
-                            <option value="0">Nenhuma unidade</option>
+                            <option value="0">0 un.</option>
                             <option value="1">1 un.</option>
                             <option value="2">2 un.</option>
                             <option value="3">3 un.</option>
@@ -205,7 +206,7 @@ class Frete extends Component {
                             <option value="10">10 un.</option>
                         </select>
                         <select className="Frete_Select" id="Ctg4" name="Ctg4" type="number" value={this.state.Ctg4} onChange={this.categoryFour}>
-                            <option value="0">Nenhuma unidade</option>
+                            <option value="0">0 un.</option>
                             <option value="1">1 un.</option>
                             <option value="2">2 un.</option>
                             <option value="3">3 un.</option>

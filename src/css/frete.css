@@ -41,10 +41,12 @@
 
 .Frete_Select {
     width: 40%;
+    max-width: 40%;
     text-align: center;
     font-size: calc(0.8rem + 1vw);
     color: rgb(65, 20, 20);
     margin: 0 5%;
+    padding: calc(0.45rem + 0.1vw) 0% calc(0.45rem + 0.1vw) 0%;
 }
 
 .CEP_Div {
@@ -57,12 +59,14 @@
 
 .CEP_Label {
     display: inline-block;
-    font-size: calc(0.8rem + 1vw);
+    font-size: calc(1rem + 1vw);
     color: white;
     padding: 0 0.5rem;
 }
 
 .CEP_Div input {
+    text-align: center;
+    padding: calc(0.25rem + 0.1vw) 0% calc(0.25rem + 0.1vw) 0%;
     width: 50%;
     font-size: calc(0.8rem + 1vw);
     color: rgb(65, 20, 20);

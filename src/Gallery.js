@@ -29,7 +29,7 @@ class Gallery extends Component {
                     </Link>
                 </div>
                 <div className="Gallery_Component">
-                    <h1>Linha Mini ajudante</h1>
+                    <h1>Linha mini Ajudante</h1>
                     <h2>Pensando neles o tempo todo, fomos os pioneiros em criar mini mascotes pra turminha que queria ajudar também.</h2>
                     <h2>Com tamanhos e aberturas especiais para facilitar o uso, temos todos os modelos disponíveis em tamanho baby e até sob medida se for o caso!</h2>
                     <Link to="/3">
