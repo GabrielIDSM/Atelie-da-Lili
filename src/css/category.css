@@ -1,16 +1,13 @@
-.Gallery_Page {
-    background-color: rgb(255, 90, 255);
-}
-
-.Gallery_Two_Images {
-    width: 100%;
-    display: flex;
-}
+.Gallery_Page::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 
 .Gallery_Div_Image {
-    width: 90%;
-    margin: 0 0.5% 1% 0.5%;
-    padding: 0.5%;
+    float: left;
+    width: 33.33%;
+    padding: 5px;
     background-color: white;
 }
 

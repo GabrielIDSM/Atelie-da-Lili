@@ -6,7 +6,6 @@ class About extends Component {
         return (
             <div className="Page">
                 <Bar></Bar>
-                <img className="Gif_one" src={ require('./images/Elogios.gif') } alt="Comentarios"></img>
                 <div className="About_Full_Component">
                     <h1>Sobre o Ateliê</h1>
                     <p>Era agosto de 2011 e tínhamos idealizado uma chamada evangelística pelas ruas do nosso Bairro, e ter bonecões já era um desejo. Foi difícil encontrar quem fizesse, na época não era tão comum; e não  desmerecendo o trabalho de ninguém, quando encontramos, o preço era inacessível pra nós. Quase deixamos nosso sonho pra lá. Um dia passeando com meus filhos, bati meus olhos naquelas bolas gigantes, recreativas.. E pensei: - É isso! Farei o molde a partir dela... Gente!  Ficou horrível, mas foi um sucesso</p>

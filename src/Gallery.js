@@ -7,11 +7,6 @@ class Gallery extends Component {
         return (
             <div className="Page">
                 <Bar></Bar>
-                <div className="Gallery_Slide">
-                    <div className="Slide_Div">
-                        <img className="Slide_Img" alt="Slide" src={require('./images/Slides.gif')}></img>
-                    </div>
-                </div>
                 <div className="Gallery_Component">
                     <h1>Mascotes e Kits</h1>
                     <h2>Nossa linha de bonecos faz a alegria de adultos e crianças por onde chega. Isso porque projetamos seus rostinhos para terem traços delicados e harmonioso,  de tão lindos é difícil não acreditar que não  são crianças de verdade.</h2>

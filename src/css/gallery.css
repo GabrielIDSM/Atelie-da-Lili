@@ -1,27 +1,12 @@
-.Gallery_Slide {
-    margin: 5vh 5vh;
-    background-color: rgb(40, 40, 100);
-    padding: 0 calc(34vw - 8rem);
-}
-
-.Slide_Div {
-    width: 100%;
-    padding: 0.5%;
-    background-color: white;
-}
-
-.Slide_Img {
-    display: block;
-    width: 100%;
-    height: auto;
-    margin: 0;
-    padding: 0;
-}
-
 .Gallery_Component {
-    margin: 5vh 5vh;
-    background-color: rgb(255, 90, 255);
-    opacity: 0.915;
+    background: rgba( 255, 90, 255, 0.75);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    backdrop-filter: blur( 8px);
+    -webkit-backdrop-filter: blur( 6px);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+    max-width: 900px;
+    margin: 5vh auto;
 }
 
 .Gallery_Component h1 {
