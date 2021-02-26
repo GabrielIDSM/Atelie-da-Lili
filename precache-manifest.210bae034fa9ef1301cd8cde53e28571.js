@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "11fe73941223edde9fe617debf64c7fe",
+    "revision": "4be9d58660fe8ad4b29c208de19f63a4",
     "url": "/index.html"
   },
   {
-    "revision": "b8c55e937ae368e76eff",
-    "url": "/static/css/main.89275bb2.chunk.css"
+    "revision": "8fba153ea8824e50c69c",
+    "url": "/static/css/main.17550c2c.chunk.css"
   },
   {
     "revision": "8b5b303cb45b23655714",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.aa98305e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b8c55e937ae368e76eff",
-    "url": "/static/js/main.7e7d982c.chunk.js"
+    "revision": "8fba153ea8824e50c69c",
+    "url": "/static/js/main.308cff4f.chunk.js"
   },
   {
     "revision": "306378348301b609c984",
@@ -152,16 +152,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/3_1_2.ec1a2ceb.png"
   },
   {
-    "revision": "bac056a0b83f7f4e8204ae18a5f7f418",
-    "url": "/static/media/Elogios.bac056a0.gif"
-  },
-  {
     "revision": "3ea7ec07808fa883d9533e3017d64f60",
     "url": "/static/media/ProjectSClouds.3ea7ec07.png"
-  },
-  {
-    "revision": "bc0384d2a88ac5619fea956c92076454",
-    "url": "/static/media/Slides.bc0384d2.gif"
   },
   {
     "revision": "c6e536e3a5063057060ae7f016b405fe",
