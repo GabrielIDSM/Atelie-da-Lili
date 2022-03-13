@@ -1,0 +1,91 @@
+.Form-Item-Label-Text {
+    margin: 0;
+    padding: 0;
+}
+
+.Form-Item-Label {
+    width: 100%;
+    font-size: calc(0.65rem + 0.75vw);
+}
+
+.Form-Item-Input select {
+    margin: 0.5rem 0;
+    width: 100%;
+    height: 3.5rem;
+    font-size: calc(0.65rem + 0.75vw);
+    border-width: 2px;
+    border-color: #06324B;
+}
+
+.Form-Item-Input input {
+    margin: 0.5rem 0;
+    width: 100%;
+    height: 3.5rem;
+    font-size: calc(0.65rem + 0.75vw);
+    border-width: 2px;
+    border-color: #06324B;
+}
+
+.Form-Submit button {
+    margin: 0.5rem 0;
+    width: 100%;
+    height: 3.5rem;
+    font-size: calc(0.65rem + 0.75vw);
+    background-color: #06324B;
+    color: #fff;
+}
+
+.Form-Result {
+    width: 100%;
+    text-align: center;
+}
+
+.Form-Result-Label {
+    font-size: calc(0.85rem + 0.75vw);
+    font-weight: bold;
+    color: #06324B;
+}
+
+@media (min-width: 756px) {
+    .Form-Item-Label {
+        display: inline-block;
+        width: 50%;
+        font-size: calc(0.65rem + 0.75vw);
+    }
+
+    .Form-Item-Input {
+        display: inline-block;
+        width: 50%;
+    }
+    
+    .Form-Item-Input select {
+        margin: 0.5rem 0;
+        width: 100%;
+        height: 3.5rem;
+        font-size: calc(0.65rem + 0.75vw);
+        border-width: 2px;
+        border-color: #06324B;
+    }
+    
+    .Form-Item-Input input {
+        margin: 0.5rem 0;
+        width: 100%;
+        height: 3.5rem;
+        font-size: calc(0.65rem + 0.75vw);
+        border-width: 2px;
+        border-color: #06324B;
+    }
+    
+    .Form-Submit button {
+        margin: 0.5rem 0 0 50%;
+        width: 50%;
+        height: 3.5rem;
+        font-size: calc(0.65rem + 0.75vw);
+        background-color: #06324B;
+        color: #fff;
+    }
+
+    .Form-Result {
+        margin-top: 2rem;
+    }
+}

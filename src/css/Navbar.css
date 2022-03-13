@@ -1,0 +1,11 @@
+.Navbar {
+    height: 4.5em;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #06324B;
+}
+
+.cover-container-navbar {
+    max-width: 48em;
+}

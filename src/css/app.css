@@ -1,4 +1,6 @@
-body {
-    background-image: url(".././images/clouds.png");
-    background-repeat: repeat;
+.App {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
