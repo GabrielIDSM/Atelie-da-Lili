@@ -41,7 +41,10 @@ class Home extends Component {
 								<p className="Page-Sub-List-Item"><i className="List-Icon fab fa-whatsapp"></i>(21) 97291-9788</p>
 							</div>
 							<div className="Page-Sub-List-Box">
-								<p className="Page-Sub-List-Item"><i className="List-Icon fab fa-facebook"></i>facebook.com/liliInacio82</p>
+								<p className="Page-Sub-List-Item"><i className="List-Icon fab fa-facebook"></i>facebook.com/liliinacio82</p>
+							</div>
+							<div className="Page-Sub-List-Box">
+								<p className="Page-Sub-List-Item"><i className="List-Icon fab fa-instagram"></i>liliinacio82</p>
 							</div>
 						</div>
 					</div>
