@@ -8,20 +8,21 @@ class Home extends Component {
                 <Navbar active="/" />
                 <div className="Home">
                     <div className="Home-Cover">
-                        <div className="Page-Main-Title">
-                            <p>Olá, este é o Ateliê Lili Inácio!</p>
-                        </div>
-                        <div className="Page-Main-Sub-Title">
-                            <p>
-                                Bem-vindo a este espaço que é nosso e foi
-                                projetado com muito carinho pra você! Aqui você
-                                poderá escolher e sonhar com o seu mascote. E de
-                                sonhos eu entendo, pois o ateliê nasceu de um
-                                sonho!
-                            </p>
-                        </div>
+						<div className="Home-Cover-Content">
+							<div className="Page-Main-Title">
+								<p>Olá! Este é o Ateliê Lili Inácio</p>
+							</div>
+							<div className="Page-Main-Sub-Title">
+								<p>
+									Bem-vindo a este espaço que é nosso e foi
+									projetado com muito carinho pra você! Aqui você
+									poderá escolher e sonhar com o seu mascote. E de
+									sonhos eu entendo, pois o ateliê nasceu de um
+									sonho!
+								</p>
+							</div>
+						</div>
                     </div>
-					<div className="Home-Separator"></div>
 					<div className="Home-Content">
 						<div className="Page-Title">
 							<p>Contato</p>

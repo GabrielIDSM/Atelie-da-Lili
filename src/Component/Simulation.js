@@ -154,7 +154,7 @@ class Simulation extends Component {
 					</div>
 					<div className="Page-Sub-Title">
 						<p>
-							Agora você mesmo pode calcular o valor de sua compra e frete! Para materiais de pelúcia ou pedidos especiais, entre em contato com o Ateliê.
+							Agora é possível calcular o valor de sua compra e frete. Para materiais de pelúcia ou pedidos especiais, entre em contato com o Ateliê.
 						</p>
 					</div>
 					<div className="Simulation-Form">

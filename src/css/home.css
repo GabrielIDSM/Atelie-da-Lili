@@ -68,12 +68,8 @@ a, a:focus, a:hover {
 
 .Home-Cover {
     padding: 2rem;
+    min-height: calc(100vh - 4.5em);
     background-image: linear-gradient(#06324B, #2D9AD5);
-}
-
-.Home-Separator {
-    height: 0.5rem;
-    background-image: linear-gradient(#2D9AD5, #fff);
 }
 
 .Home-Content {
@@ -145,5 +141,13 @@ a, a:focus, a:hover {
     .Home-Content {
         width: 70%;
         margin: 0 15%;
+    }
+    .Home-Cover {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Page-Main-Title p {
+        font-weight: bold;
     }
 }
