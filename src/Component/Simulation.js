@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Navbar } from './Navbar';
 import axios from 'axios';
+import loading from '../Image/Loading.gif'
 
 class Simulation extends Component {
     constructor(props) {
@@ -78,11 +79,10 @@ class Simulation extends Component {
             auxCtg2 = obj.Ctg2
             auxCtg3 = obj.Ctg3
             auxCtg4 = obj.Ctg4
-            totalPrice = parseFloat(obj.Ctg1) * 250.0
-            totalPrice += parseFloat(obj.Ctg2) * 250.0
+            totalPrice = parseFloat(obj.Ctg1) * 260.0
+            totalPrice += parseFloat(obj.Ctg2) * 260.0
             totalPrice += parseFloat(obj.Ctg3) * 280.0
-            totalPrice += parseFloat(obj.Ctg4) * 320.0
-            if (totalPrice >= 500) totalPrice = totalPrice * 0.92
+            totalPrice += parseFloat(obj.Ctg4) * 350.0
             obj.Cep = obj.Cep.replace("-", "")
             return { obj }
         })
@@ -121,7 +121,7 @@ class Simulation extends Component {
                         this.setState(prevState => {
                             var obj = prevState
                             totalPrice = Math.round(totalPrice * 100) / 100
-                            obj.Result = "Valor Total: R$" + totalPrice.toString()
+                            obj.Result = "Valor total: R$" + totalPrice.toString()
                             return { obj }
                         })
                     })
@@ -164,77 +164,77 @@ class Simulation extends Component {
 							</div>
 							<div className="Form-Item-Input">
 								<select className="Simulation-Select" id="Ctg1" name="Ctg1" type="number" value={this.state.Ctg1} onChange={this.categoryOne}>
-									<option value="0">0 un.</option>
-									<option value="1">1 un.</option>
-									<option value="2">2 un.</option>
-									<option value="3">3 un.</option>
-									<option value="4">4 un.</option>
-									<option value="5">5 un.</option>
-									<option value="6">6 un.</option>
-									<option value="7">7 un.</option>
-									<option value="8">8 un.</option>
-									<option value="9">9 un.</option>
-									<option value="10">10 un.</option>
+									<option value="0">0 unidades</option>
+									<option value="1">1 unidade</option>
+									<option value="2">2 unidades</option>
+									<option value="3">3 unidades</option>
+									<option value="4">4 unidades</option>
+									<option value="5">5 unidades</option>
+									<option value="6">6 unidades</option>
+									<option value="7">7 unidades</option>
+									<option value="8">8 unidades</option>
+									<option value="9">9 unidades</option>
+									<option value="10">10 unidades</option>
 								</select>
 							</div>
 						</div>
 						<div className="Form-Item">
 							<div className="Form-Item-Label">
-								<p className="Form-Item-Label-Text"> Kit Bíblia / Kit Coração </p>
+								<p className="Form-Item-Label-Text"> Kit Bíblia Comum / Kit Coração Comum </p>
 							</div>
 							<div className="Form-Item-Input">
 								<select className="Simulation-Select" id="Ctg2" name="Ctg2" type="number" value={this.state.Ctg2} onChange={this.categoryTwo}>
-									<option value="0">0 un.</option>
-									<option value="1">1 un.</option>
-									<option value="2">2 un.</option>
-									<option value="3">3 un.</option>
-									<option value="4">4 un.</option>
-									<option value="5">5 un.</option>
-									<option value="6">6 un.</option>
-									<option value="7">7 un.</option>
-									<option value="8">8 un.</option>
-									<option value="9">9 un.</option>
-									<option value="10">10 un.</option>
+									<option value="0">0 unidades</option>
+									<option value="1">1 unidade</option>
+									<option value="2">2 unidades</option>
+									<option value="3">3 unidades</option>
+									<option value="4">4 unidades</option>
+									<option value="5">5 unidades</option>
+									<option value="6">6 unidades</option>
+									<option value="7">7 unidades</option>
+									<option value="8">8 unidades</option>
+									<option value="9">9 unidades</option>
+									<option value="10">10 unidades</option>
 								</select>
 							</div>
 						</div>
 						<div className="Form-Item">
 							<div className="Form-Item-Label">
-								<p className="Form-Item-Label-Text"> Kit Lápis / Kit Ide Mundo / Kit Guita </p>
+								<p className="Form-Item-Label-Text"> Kit Bíblia Especial / Kit Coração Especial </p>
 							</div>
 							<div className="Form-Item-Input">
 								<select className="Simulation-Select" id="Ctg3" name="Ctg3" type="number" value={this.state.Ctg3} onChange={this.categoryThree}>
-									<option value="0">0 un.</option>
-									<option value="1">1 un.</option>
-									<option value="2">2 un.</option>
-									<option value="3">3 un.</option>
-									<option value="4">4 un.</option>
-									<option value="5">5 un.</option>
-									<option value="6">6 un.</option>
-									<option value="7">7 un.</option>
-									<option value="8">8 un.</option>
-									<option value="9">9 un.</option>
-									<option value="10">10 un.</option>
+									<option value="0">0 unidades</option>
+									<option value="1">1 unidade</option>
+									<option value="2">2 unidades</option>
+									<option value="3">3 unidades</option>
+									<option value="4">4 unidades</option>
+									<option value="5">5 unidades</option>
+									<option value="6">6 unidades</option>
+									<option value="7">7 unidades</option>
+									<option value="8">8 unidades</option>
+									<option value="9">9 unidades</option>
+									<option value="10">10 unidades</option>
 								</select>
 							</div>
 						</div>
 						<div className="Form-Item">
 							<div className="Form-Item-Label">
-								<p className="Form-Item-Label-Text"> Modelos especiais </p>
+								<p className="Form-Item-Label-Text"> Kit Lápis / Kit Ide Mundo / Kit Guita / Kit Casinha </p>
 							</div>
 							<div className="Form-Item-Input">
 								<select className="Simulation-Select" id="Ctg4" name="Ctg4" type="number" value={this.state.Ctg4} onChange={this.categoryFour}>
-									<option value="0">0 un.</option>
-									<option value="1">1 un.</option>
-									<option value="2">2 un.</option>
-									<option value="3">3 un.</option>
-									<option value="4">4 un.</option>
-									<option value="5">5 un.</option>
-									<option value="6">6 un.</option>
-									<option value="7">7 un.</option>
-									<option value="8">8 un.</option>
-									<option value="9">9 un.</option>
-									<option value="10">10 un.</option>
+									<option value="0">0 unidades</option>
+									<option value="1">1 unidade</option>
+									<option value="2">2 unidades</option>
+									<option value="3">3 unidades</option>
+									<option value="4">4 unidades</option>
+									<option value="5">5 unidades</option>
+									<option value="6">6 unidades</option>
+									<option value="7">7 unidades</option>
+									<option value="8">8 unidades</option>
+									<option value="9">9 unidades</option>
+									<option value="10">10 unidades</option>
 								</select>
 							</div>
 						</div>
@@ -250,8 +250,11 @@ class Simulation extends Component {
 							<button type="submit" onClick={this.submit}>Calcular</button>
 						</div>
 						<div className="Form-Result">
-							{this.state && this.state.Result &&
+							{this.state && this.state.Result && this.state.Result !== 'Processando ...' &&
 								<label className="Form-Result-Label">{this.state.Result}</label>
+							}
+                            {this.state && this.state.Result && this.state.Result === 'Processando ...' &&
+								<img className="Form-Loading" src={loading} alt="loading"></img>
 							}
 						</div>
 					</div>

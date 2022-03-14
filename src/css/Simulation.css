@@ -41,9 +41,13 @@
 }
 
 .Form-Result-Label {
-    font-size: calc(0.85rem + 0.75vw);
+    font-size: calc(1rem + 1vw);
     font-weight: bold;
     color: #06324B;
+}
+
+.Form-Loading {
+    width: calc(2rem + 0.5vw);
 }
 
 @media (min-width: 756px) {
