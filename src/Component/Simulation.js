@@ -93,9 +93,9 @@ class Simulation extends Component {
             cepDestino: this.state.Cep.toString(),
             formato: '1',
             comprimento: 60.0,
-            altura: 25.0,
-            largura: 25.0,
-            diametro: 25.0,
+            altura: 30.0,
+            largura: 30.0,
+            diametro: 30.0,
             peso: 2.0
         }
         let argsCtg3and4 = {
@@ -105,9 +105,9 @@ class Simulation extends Component {
             formato: '1',
             comprimento: 60.0,
             altura: 30.0,
-            largura: 25.0,
-            diametro: 25.0,
-            peso: 2.0
+            largura: 30.0,
+            diametro: 30.0,
+            peso: 3.0
         }
         axios.post('https://gabrielidsm-fretecorreios.herokuapp.com/correios/frete', argsCtg1and2)
             .then(response => {
